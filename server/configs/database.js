@@ -2,7 +2,7 @@ const mongoose = require('mongoose')
 
 // Don't forget to set "MONGODB_URI" in ~/server/.env
 const uri =
-  process.env.MONGODB_URI ||
+  process.env.MONGOLAB_GREEN_URI ||
   `mongodb://localhost/final-project`
 
 mongoose.Promise = Promise;
